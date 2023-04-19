@@ -9,7 +9,8 @@ def main(page: ft.Page):
     page.horizontal_alignment = ft.CrossAxisAlignment.CENTER
 
     def generate_qr_code(event_control):
-        """Generate the QR Code by using pyqrcode lib and append it to the program flow.
+        """
+        Generate the QR Code by using pyqrcode lib and append it to the program flow.
         """
         qr = pyqrcode.create(f"{user_input.value}", version=8 if len(
             user_input.value) < 70 else 14)
