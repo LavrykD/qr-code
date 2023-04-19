@@ -2,7 +2,6 @@ import flet as ft
 import pyqrcode
 import base64
 from io import BytesIO
-import time
 
 
 def main(page: ft.Page):
