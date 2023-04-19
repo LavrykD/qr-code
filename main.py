@@ -23,7 +23,7 @@ def main(page: ft.Page):
 
         # Append information bar
         page.controls.append(
-            ft.SnackBar(ft.Text(f"QR Code for is generated!"), open=True)
+            ft.SnackBar(ft.Text("QR Code is generated!"), open=True)
         )
         page.update()
 
